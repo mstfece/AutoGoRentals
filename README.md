@@ -1,4 +1,5 @@
-      # AutoGoRentals
+# AutoGoRentals
+
       
    This project aims to create a user-friendly and efficient online platform for renting cars. 
 Our Rent-a-Car Website provides a seamless experience for users to search, compare, and book rental cars easily.
@@ -7,7 +8,7 @@ ur intuitive interface allows users to input their desired location, dates, and 
 The website also incorporates secure online payment methods, ensuring a hassle-free and secure transaction process.
 Whether it's for business trips, vacations, or any other occasion, our Rent-a-Car Website is your one-stop solution for convenient and reliable car rentals.
 
-      # Features
+# Features
       
 The Rent-a-Car Website offers a range of features designed to enhance the user experience and make car rental convenient and enjoyable:
 
@@ -25,7 +26,7 @@ The Rent-a-Car Website offers a range of features designed to enhance the user e
 
 ![image](https://github.com/mstfece/AutoGoRentals/assets/82402952/03daea5d-6474-4f49-ba57-2c961ed0441f)
 
-      # Technologies Used
+# Technologies Used
       
 The Rent-a-Car Website utilizes a combination of modern web technologies to provide a robust and interactive user experience:
 
