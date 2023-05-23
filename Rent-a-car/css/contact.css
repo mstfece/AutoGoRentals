@@ -1,0 +1,173 @@
+/*
+Template Name:Carpa
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/********************* contact_main ****************/
+#contact_main{ 
+ background-image: url(../img/89.jpg);
+ padding-bottom: 180px;
+ padding-top: 69px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.contact_main_1{ 
+ background-color: #8a8b8ba3;
+ width: 30%;
+ text-align: center;
+ padding: 15px 20px 20px 10px;
+ border-radius: 30px 50px 30px 50px;
+ }
+.contact_main_1 h2{ 
+ color: #fff;
+ font-weight:bold;
+ }
+.contact_main_1 i{ 
+ color: #fff;
+ padding-left:5px;
+ }
+.contact_main_1 p a{ 
+ color: #fff;
+ }
+.contact_main_1 p a:hover{ 
+ color: #fff;
+ }
+/********************* contact_main_end ****************/
+/********************* contact****************/
+#contact{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.contact_1 p {
+ text-align: center;
+ padding-bottom: 60px;
+}
+.contact_2 h4{
+ letter-spacing: 0.05em; 
+ padding-bottom:5px;
+             }
+.contact_2 h5{
+ font-size: 18px;
+ line-height: 30px;
+ color: #858480;
+ padding:0;
+ margin:0;
+ }
+.contact_2 h5 i{
+ font-size: 18px;
+ line-height: 20px;
+ color: #e04e21;
+             }
+.contact_2 a{
+text-decoration:none;
+color: #080808;
+ }
+.contact_2 a:hover{
+color: #808085;
+ }
+.media_1{
+ margin:5px;
+ }
+.media_2{
+margin:5px;
+}
+.contact_3 h2{   
+ letter-spacing: 0.05em;
+ }
+.contact_3 p{   
+color:#999999;
+padding-bottom:10px; 
+font-size:20px; 
+}
+.contact_4 input{
+ padding-top:20px;
+ padding-bottom:20px;
+ margin-bottom:10px;
+             }
+.contact_5 textarea{
+ height:155px;
+ width:100%
+                  }
+.contact_5{
+ padding-bottom:5px;
+}
+.contact_6 ul{  
+ padding:0;
+ margin:0;
+}
+.contact_6 li{  
+ padding:0;
+ margin:0;
+ display:inline;
+  }
+.contact_6{
+ padding-top:0px;  
+ padding-bottom:10px; 
+}
+.popover_1{   
+padding-left:10px;
+}
+.contact_7 h2{ 
+ padding-bottom:5px;
+ }
+#contact .form-control {
+ font-size:20px;
+ background-color: #fff;
+ border-color: #000;
+ color:#5a5959;
+}
+#contact .form-control::placeholder{
+ color:#e2e2e2;
+}
+/********************* contact_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#contact_main {
+ padding-bottom: 80px;
+ padding-top: 80px;
+}
+.contact_main_1 {
+ width: 100%;
+}
+#contact {
+ text-align: center;
+ padding-top: 15px;
+}
+.contact_3 h2 {
+ font-size: 30px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) {
+	
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.contact_3 h2 {
+ font-size: 28px;
+}
+.contact_7 h2 {
+ font-size: 28px;
+}
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+.contact_3 h2 {
+ font-size: 28px;
+}
+.contact_7 h2 {
+ font-size: 28px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1325px) {
+
+}
+
+
+

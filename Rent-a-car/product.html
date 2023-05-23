@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoGoRentals</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link href="css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belgrano&family=Raleway:wght@400;700&family=Wix+Madefor+Display&display=swap"
+        rel="stylesheet">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section id="header" class="clearfix cd-secondary-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><i class="fa-thin fa-truck-pickup"></i>
+                                AutoGoRentals</a>
+                        </div>
+                        <!-- nav links forms -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="m_tag " href="index.html">Home</a></li>
+                                <li><a class="m_tag" href="about.html">About</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle m_tag active_m" data-toggle="dropdown">Cars <b
+                                            class="caret"></b></a>
+                                    <ul class="dropdown-menu drop_m">
+                                        <li><a class="active_m" href="product.html">All Cars</a></li>
+                                        <li><a href="product-details.html">Car Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="m_tag  " href="details.html">Blog
+                                    </a></li>
+
+                                <li class="dropdown">
+                                    <a href="contact.html" class=" m_tag ">Contact </a>
+                                </li>
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a class="m_tag" href="#">Sign Up</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle m_tag" data-toggle="dropdown">Sign in <b
+                                            class="caret"></b></a>
+                                    <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form class="form" method="post" action="#" accept-charset="UTF-8"
+                                                        id="login-nav">
+                                                        <div class="form-group">
+                                                            <label class="sr-only" for="exampleInputEmail2">Email
+                                                                address</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail2" placeholder="Email address"
+                                                                required="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="sr-only"
+                                                                for="exampleInputPassword2">Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword2" placeholder="Password"
+                                                                required="">
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox"> Remember me
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button type="submit"
+                                                                class="btn btn-success btn-block button_1">Sign
+                                                                in</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <input class="btn btn-primary btn-block button_2" type="button"
+                                                id="sign-in-google" value="Sign In with Google">
+                                            <input class="btn btn-primary btn-block button_3" type="button"
+                                                id="sign-in-twitter" value="Sign In with Twitter">
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product_main">
+        <div class="container">
+            <div class="row">
+                <div class="product_main_1">
+                    <h2>Cars</h2>
+                    <p><a href="#"> Home </a> <i class="fa fa-angle-double-right"></i> <a href="#"> Cars </a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mauris">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-3">
+                        <div class="list_1l clearfix">
+                            <div class="list_1l1 clearfix">
+                                <h4 class="mgt bg_1 normal">Sort By Categories</h4>
+                                <div class="ziehharmonika">
+                                    <h3 data-prefix="★" class="active mgt"><a href="product-details.html">Fuel Type</a>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">–</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">–</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">–</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">–</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">-</div>
+                                    </h3>
+                                    <div class="clickable" style="display: block;">
+                                        <ul>
+                                            <li><input type="checkbox" href="product-details.html">Diesel</input></li>
+                                            <li><input type="checkbox" href="product-details.html">Gasoline</input></li>
+                                            <li><input type="checkbox" href="product-details.html">Hybrid</input></li>
+                                        </ul>
+                                    </div>
+                                    <h3 data-prefix="★"><a href="product-details.html">Gear</a>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                    </h3>
+                                    <div class="clickable">
+                                        <ul>
+                                            <li><input type="checkbox" href="product-details.html">Manual</input></li>
+                                            <li><input type="checkbox" href="product-details.html">Automatic</input>
+                                            </li>
+                                            <li><input type="checkbox" href="product-details.html">Semi
+                                                Automatic</input></li>
+                                        </ul>
+                                    </div>
+                                    <h3 data-prefix="★" class=""><a href="product-details.html">Body Style</a>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                    </h3>
+                                    <div class="clickable" style="display: none;">
+                                        <ul>
+                                            <li><input type="checkbox" href="product-details.html">Coupe</input></li>
+                                            <li><input type="checkbox" href="product-details.html">SUV </input></li>
+                                            <li><input type="checkbox" href="product-details.html">Sedan</input></li>
+                                            <li><input type="checkbox" href="product-details.html">Hatchback</input>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 data-prefix="★"><a href="product-details.html">Engine Power</a>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                        <div class="arrowDown"></div>
+                                        <div class="collapseIcon">+</div>
+                                    </h3>
+                                    <div class="clickable">
+                                        <ul>
+                                            <li><input type="checkbox" href="product-details.html">51-75 hp</input></li>
+                                            <li><input type="checkbox" href="product-details.html"> 76-100 hp</input>
+                                            </li>
+                                            <li><input type="checkbox" href="product-details.html">100-125 hp</input>
+                                            </li>
+                                            <li><input type="checkbox" href="product-details.html">125-250 hp</input>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="list_1l2 clearfix">
+                                <h4 class="mgt bg_1 normal">Filter by</h4>
+                                <div class="list_1l2i clearfix">
+                                    <h5 class="mgt">Availability</h5>
+                                    <h6><input type="checkbox"> <a href="product-details.html">In stock (11)</a></h6>
+                                    <h6><input type="checkbox"> <a href="product-details.html">Out of stock (2)</a></h6>
+                                    <hr>
+                                    <h5>Price</h5>
+                                    <input placeholder="From" class="form-control" type="text">
+                                    <input placeholder="To" class="form-control" type="text">
+                                    <hr>
+                                    <h5>Color</h5>
+                                    <ul>
+                                        <li class="bg_6 act"></li>
+                                        <li class="bg_2"></li>
+                                        <li class="bg_3"></li>
+                                        <li class="bg_4"></li>
+                                        <li class="bg_5"></li>
+                                    </ul>
+                                    <ul>
+                                        <li class="bg_6 act"></li>
+                                        <li class="bg_2"></li>
+                                        <li class="bg_3"></li>
+                                        <li class="bg_4"></li>
+                                        <li class="bg_5"></li>
+                                    </ul>
+                                    <hr>
+                                    <h5>Size</h5>
+                                    <ul>
+                                        <li class="bg_3 act_1">XS</li>
+                                        <li class="bg_3 line">L</li>
+                                        <li class="bg_3 line">XL</li>
+                                        <li class="bg_3 line">S</li>
+                                    </ul>
+                                </div>
+                            </div><br>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+
+                        <div class="mauris_3">
+                            <div class="well well-sm">
+                                <strong>Category Title</strong>
+                                <div class="btn-group">
+                                    <a href="product-details.html" id="list" class="btn btn-default btn-sm"><span
+                                            class="glyphicon glyphicon-th-list">
+                                        </span>List</a> <a href="product-details.html" id="grid"
+                                        class="btn btn-default btn-sm"><span
+                                            class="glyphicon glyphicon-th"></span>Grid</a>
+                                </div>
+                            </div>
+                            <div id="products" class="row list-group">
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/48.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Jeep Cherokee</h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $100</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/49.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Mercedes ML 280 CDI </h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $140</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/50.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Range Rover Evoque</h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $190</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/51.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Ford Focus</h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $90</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/52.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Mercedes SLK </h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $200</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item  col-xs-4 col-lg-4">
+                                    <div class="thumbnail">
+                                        <img class="group list-group-image" src="img/53.jpg" alt="">
+                                        <div class="caption">
+                                            <h4 class="group inner list-group-item-heading">
+                                                Mercedes A 180</h4>
+                                            <p class="group inner list-group-item-text">
+                                                Product description... Lorem ipsum dolor sit amet, consectetuer
+                                                adipiscing elit,
+                                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                                                erat volutpat.</p>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-6">
+                                                    <p class="lead">
+                                                        $80</p>
+                                                </div>
+                                                <div class="col-xs-12 col-md-6">
+                                                    <a class="btn btn-success" href="product-details.html">Add to
+                                                        cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer_main clearfix">
+                        <div class="col-sm-4">
+                            <div class="footer_1 clearfix">
+                                <h3>Contact Us</h3>
+                                <p>Our dedicated customer support team is available during business hours to answer any
+                                    questions you may have, provide assistance, and ensure your needs are met.</p>
+                                <h4><i class="fa fa-phone"></i>+91 1234 567 890</h4>
+                                <h5><i class="fa fa-envelope"></i><a href="#">info@gmail.com</a></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer_1 clearfix">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <div class="col-sm-6 space_all">
+                                    <div class="footer_2">
+                                        <ul>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="index.html"><i
+                                                        class="fa fa-arrow-right"></i>Home</a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="product.html"><i
+                                                        class="fa fa-arrow-right"></i>Cars</a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="about.html"><i
+                                                        class="fa fa-arrow-right"></i>About </a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="details.html"><i
+                                                        class="fa fa-arrow-right"></i>Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 space_all">
+                                    <div class="footer_2 clearfix">
+                                        <ul>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="contact.html"><i
+                                                        class="fa fa-arrow-right"></i>Contact</a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="#"><i
+                                                        class="fa fa-arrow-right"></i>Sign up</a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a href="#"><i
+                                                        class="fa fa-arrow-right"></i>Sign in</a></li>
+                                            <li class="col-sm-12 col-xs-6 space_left"><a style="font-size: smaller;"
+                                                    href="index.html"><i class="fa fa-arrow-right"></i>AutoGoRentals</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer_1 clearfix">
+                                <h3> Subscribe</h3>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <div class="footer_3">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <div class="footer_4">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <div class="footer_5 clearfix">
+                                    <a class="button hvr-shutter-out-horizontal button" href="#">SUBSCRIBE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="col-sm-6 space_all">
+                        <div class="footer_6">
+                            <p>© 2016 Interient. All Rights Reserved. Design By <a
+                                    href="http://www.templateonweb.com">Template On Web</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 space_all">
+                        <div class="footer_7">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            /*****Fixed Menu******/
+            var secondaryNav = $('.cd-secondary-nav'),
+                secondaryNavTopPosition = secondaryNav.offset().top;
+            navbar_height = document.querySelector('.navbar').offsetHeight;
+
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > secondaryNavTopPosition + navbar_height) {
+                    secondaryNav.addClass('is-fixed');
+                    document.body.style.paddingTop = navbar_height + 'px';
+
+                } else {
+                    secondaryNav.removeClass('is-fixed');
+                    document.body.style.paddingTop = '0'
+                }
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#list').click(function (event) { event.preventDefault(); $('#products .item').addClass('list-group-item'); });
+            $('#grid').click(function (event) { event.preventDefault(); $('#products .item').removeClass('list-group-item'); $('#products .item').addClass('grid-group-item'); });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).on('click', '.panel-heading span.clickable', function (e) {
+            var $this = $(this);
+            if (!$this.hasClass('panel-collapsed')) {
+                $this.parents('.panel').find('.panel-body').slideUp();
+                $this.addClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+            } else {
+                $this.parents('.panel').find('.panel-body').slideDown();
+                $this.removeClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+            }
+        });
+        $(document).on('click', '.panel div.clickable', function (e) {
+            var $this = $(this);
+            if (!$this.hasClass('panel-collapsed')) {
+                $this.parents('.panel').find('.panel-body').slideUp();
+                $this.addClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+            } else {
+                $this.parents('.panel').find('.panel-body').slideDown();
+                $this.removeClass('panel-collapsed');
+                $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+            }
+        });
+        $(document).ready(function () {
+            $('.panel-heading span.clickable').click();
+            $('.panel div.clickable').click();
+        });
+
+    </script>
+
+    <script src="js/ziehharmonika.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.ziehharmonika').ziehharmonika({
+                collapsible: true,
+                prefix: '★',
+                scroll: false
+            });
+        });
+    </script>
+
+</body>
+
+
+</html>

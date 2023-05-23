@@ -1,0 +1,513 @@
+
+/********************* product_main ****************/
+#product_main{ 
+ background-image: url(../img/54.jpg);
+ padding-bottom: 180px;
+ padding-top: 69px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.product_main_1{ 
+ background-color: #606464a3;
+ width: 30%;
+ text-align: center;
+ padding: 15px 20px 20px 10px;
+ border-radius: 30px 50px 30px 50px;
+ }
+.product_main_1 h2{ 
+ color: #fff;
+ font-weight:bold;
+ }
+.product_main_1 i{ 
+ color: #fff;
+ padding-left:5px;
+ }
+.product_main_1 p a{ 
+ color: #fff;
+ }
+.product_main_1 p a:hover{ 
+ color: #fff;
+ }
+/********************* product_main_end ****************/
+/********************* mauris ****************/
+#mauris{
+padding-top:30px;
+padding-bottom:30px;
+background:#F9F6F1;
+ }
+.mauris_1 h2{
+ border-bottom: 1px solid #d4d4d4;
+ padding-bottom:5px;
+ letter-spacing:2px;
+ color: #616969;
+ }
+#mauris .clickable
+{
+cursor: pointer;
+}
+#mauris .clickable .glyphicon
+{
+background: rgba(0, 0, 0, 0.15);
+display: inline-block;
+padding: 6px 12px;
+border-radius: 4px
+}
+#mauris .thumbnail .caption {
+padding: 19px;
+}
+#mauris .panel-heading span
+{
+margin-top: -23px;
+font-size: 15px;
+margin-right: -9px;
+}
+#mauris .panel-body {
+border-bottom: 1px solid #dedcd7;
+font-size: 16px;
+background-color: #F9F6F1;
+}
+#mauris .panel-body a{
+color:#000;
+}
+#mauris .panel-body a:hover{
+color:#C96;
+}
+#mauris .panel-primary {
+border:none;
+border-bottom:1px solid #E1E1E1;
+}
+#mauris .panel-title>a {
+color: inherit;
+font-size:18px;
+}
+#mauris .panel-title>a:hover{
+color: #616969;
+}
+#mauris a.clickable { color: inherit; }
+#mauris a.clickable:hover { text-decoration:none; }
+#mauris .panel-primary>.panel-heading {
+color: #000;
+background: #F9F6F1;
+border-bottom: #F9F6F1;
+}
+.mauris_2{ 
+padding-top:20px;
+ }
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+margin-bottom:10px;
+padding: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #616969;
+}
+#mauris .btn-group, .btn-group-vertical {
+ margin-left:20px;
+}
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+.mauris_4 h2{  
+padding-top:10px;
+border-bottom:1px solid #dcdcdb;
+padding-bottom:9px;
+ }
+.mauris_4 li{ 
+display:inline;
+ }
+.mauris_4 ul{ 
+padding-bottom:10px;
+padding-top:10px;
+ }
+.well_15{ 
+padding-left:10px;
+padding-right:10px;
+ }
+.mauris_4 p{ 
+padding-top:40px;
+border-top:8px solid #d4d4d4;
+margin-top:20px;
+ }
+.mauris_4 p a{ 
+border: 2px solid #f3f0ed;
+background-color: #fff;
+padding:10px 100px 10px 70px;
+font-size:18px;
+ }
+.mauris_4 p a:hover{ 
+background-color:#CCB28D;
+color:#fff;
+border:1px solid #CCB28D;
+ }
+.mauris_5 h6{ 
+padding-top:30px;
+font-size:13px;
+padding-bottom:10px;
+ }
+#mauris .btn-success {
+ color: #fff;
+ background-color: #e04e21;
+ border-color: #e04e21;
+ margin-top:10px;
+}
+.mauris_7 ul{ 
+padding-top:7px;
+ }
+.mauris_7 li a{ 
+border-bottom:1px solid #C96;
+padding-bottom: 5px;
+color:#666;
+ }
+.mauris_7 li{ 
+display:inline;
+ }
+.list_1l2i h6 i{
+margin-right:5px;
+font-size:12px; 
+color:#999;
+ }
+#mauris .btn-default {
+color: #333;
+background:#fff;
+border:1px solid #FFF;
+}
+#mauris .dropdown-menu>li>a:hover{ 
+background:none;
+color:#C96;
+ }
+#mauris .dropdown-menu .divider {
+margin: 10px;
+}
+#mauris .open>.dropdown-menu {
+margin-top: 1px;
+}
+
+.bg_1{
+background:#e04e21;
+color:#fff; 
+padding:10px 10px 14px 10px;
+font-size:22px;
+ }
+.list_1l1{
+border:1px solid #ddd;
+ }
+.clickable ul li {
+    list-style-type: none;
+}
+.ziehharmonika h3 {
+cursor: pointer;
+padding-right: 40px;
+transition: 0.25s all;
+position: relative;
+font-size:20px;
+font-weight:bold;
+}
+.ziehharmonika ul{
+list-style:disc; 
+margin-left:30px;
+margin-top:15px;
+margin-bottom:15px;
+}
+.ziehharmonika ul li{
+margin-top:3px;
+margin-bottom:3px;
+font-size:17px;
+ }
+.ziehharmonika h3.alignLeft {
+padding-left: 35px;
+}
+.ziehharmonika > div {
+display: none;
+}
+#mauris ul {
+margin-top:15px;
+}
+
+.ziehharmonika .collapseIcon {
+position: absolute;
+right: 20px;
+top: 45%;
+font-size: 24px;
+font-weight: 300;
+-ms-transform: translate(0, -50%);
+transform: translate(0, -50%);
+}
+.ziehharmonika .collapseIcon.alignLeft {
+right: initial;
+left: 20px;
+}
+.ziehharmonika h3.active {
+color:#616969;
+}
+.ziehharmonika{
+padding:15px; 
+border-radius:0;
+ }
+.list_1l2 .form-control{
+border-radius:0;
+font-size:16px;
+height:45px;
+width:42%;
+display:inline-block;
+margin-right:10px;
+margin-top:15px;
+box-shadow:none;
+ }
+.list_1l2 .bg_6{
+ background:red;
+ }
+.list_1l2 .bg_2{
+ background:orange;
+ }
+.list_1l2 .bg_3{
+ background:none;
+ }
+.list_1l2 .bg_4{
+ background:pink;
+ }
+.list_1l2 .bg_5{
+ background:#9f9667;
+ }
+.list_1l2 .act{
+border:3px solid #616969;
+ }
+.list_1l2 ul li {
+ width:35px;
+ height:35px;
+ border:1px solid #ddd;
+ display:inline-block;
+ margin-right:5px;
+ cursor:pointer;
+ text-align:center;
+ line-height:35px;
+ font-size:12px;
+}
+.list_1l2 .act_1{
+border:1px solid #616969;
+ }
+.list_1l2 .line{
+text-decoration:line-through;
+ }
+.list_1l2{
+border:1px solid #ddd;
+ }
+.list_1l2i{
+padding:15px;
+ }
+.list_1l3 h6{
+margin-top:5px;
+ }
+.list_1l3 span{
+margin-top:5px;
+display:inline-block;
+ }
+.list_1l3 img{
+float:left;
+margin-right:10px;
+width:80px;
+height:80px;
+ }
+.list_1l2ii{
+margin-top:10px; 
+ }
+.list_1l3{
+border:1px solid #ddd;
+ }
+.list_1l4{
+border:1px solid #ddd;
+ }
+.list_1l4 h6 {
+border-bottom: 1px solid #ddd;
+padding-bottom: 15px;
+margin-top:15px;
+}
+.pb_0{
+padding-bottom:0!important; 
+ }
+/********************* mauris_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#product_main {
+ padding-bottom: 80px;
+ padding-top: 80px;
+}
+.product_main_1 {
+ width: 100%;
+}
+
+.well-sm {
+ margin-top: 15px;
+}
+#mauris .thumbnail .caption {
+ padding: 10px;
+}
+#mauris .list-group-item-heading {
+ font-size: 10px;
+}
+#mauris .list-group-item-text {
+ font-size: 8px;
+ margin: 0 0 0px;
+}
+.lead {
+ margin-bottom: 10px;
+ font-size: 11px;
+}
+#mauris .btn-success {
+ font-size: 8px;
+}
+#mauris .btn {
+ padding: 6px 1px;
+}
+.mauris_7 ul {
+ padding-bottom: 15px;
+}
+#mauris .list-group {
+ margin-bottom: 0px;
+}
+#mauris .thumbnail {
+ margin-bottom: 0px;
+}
+.bg_1 {
+text-align:center; 
+
+ }
+.list_1l4 h6{
+ text-align:center;
+ }
+.list_1l2i {
+text-align:center; 
+ }
+.list_1l2i  ul{
+text-align:center; 
+ }
+.list_1l2ii {
+text-align:left; 
+ }
+ 
+}
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.mauris_1 h2 {
+ font-size: 20px;
+}
+#mauris .panel-title>a {
+ font-size: 14px;
+}
+.mauris_4 h2 {
+ font-size: 20px;
+}
+.mauris_4 p a {
+ padding: 10px 40px 10px 40px;
+}
+.well_15 {
+ padding-left: 4px;
+ padding-right: 4px;
+ font-size: 13px;
+}
+#mauris .list-group-item-heading {
+ font-size: 14px;
+}
+#mauris .list-group-item-text {
+ font-size: 15px;
+}
+
+.list_1l2 .form-control{
+width:100%; 
+ }
+.list_1l2 ul li{
+margin-bottom:5px; 
+ }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+.mauris_1 h2 {
+ font-size: 20px;
+}
+#mauris .panel-title>a {
+ font-size: 14px;
+}
+.mauris_4 h2 {
+ font-size: 20px;
+}
+.mauris_4 p a {
+ padding: 10px 40px 10px 40px;
+}
+.well_15 {
+ padding-left: 4px;
+ padding-right: 4px;
+ font-size: 13px;
+}
+#mauris .list-group-item-heading {
+ font-size:20px;
+}
+#mauris .list-group-item-text {
+ font-size: 17px;
+}
+#mauris .lead {
+ font-size: 16px;
+}
+#mauris .btn-success {
+ font-size: 10px;
+ margin-top: 10px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1325px) {
+
+}
+
+
+
